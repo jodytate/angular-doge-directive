@@ -1,6 +1,6 @@
 {
   "name": "angular-doge-directive",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./doge.js",
   "dependencies": {
     "angular": "~1.2.26"
