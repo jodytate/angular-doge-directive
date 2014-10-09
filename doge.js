@@ -1,5 +1,4 @@
-
-
+'use strict';
 
 var link = function (scope, element, attr) {
   var baseWidth = 550;

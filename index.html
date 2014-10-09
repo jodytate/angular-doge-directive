@@ -9,15 +9,37 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     </head>
     <body>
-        <div class="container">
+        <div class="container" ng-app="doge-app">
             <h1>Angular Doge Directive</h1>
 
+            <hr>
+
+            <p class="lead">When your AngularJS application needs a doge.</p>
+
             <h2>Example Doge</h2>
-            <div ng-app="doge-app">
+
+            <p>Doges are scalable with the <code>scale</code> attribute.<p>
+
+            <h3>Half Size</h3>
+
+            <div>
                 <doge scale="0.5"></doge>
             </div>
 
+            <h2>Code Example</h2>
+            <pre><code>&lt;div ng-app="doge-directive"&gt;
+    &lt;doge&gt;&lt;/doge&gt;       
+&lt;/div&gt;</code></pre>
+
+            <h2>Install</h2>
+            <p>Install via <code>bower</code>:</p>
+            <pre><code>bower install angular-doge-directive</code></pre>
+
         </div>
+
+    <a href="https://github.com/jodytate/angular-doge-directive"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
+
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
         <script src="doge.js"></script>
     </body>
