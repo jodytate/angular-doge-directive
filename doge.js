@@ -22,7 +22,7 @@ var link = function (scope, element, attr) {
   };
 }
 
-angular.module('doge-app', []).
+angular.module('dogeApp', []).
   directive('doge', function () {
     return {
       restrict: 'E',

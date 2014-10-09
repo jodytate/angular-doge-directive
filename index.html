@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     </head>
     <body>
-        <div class="container" ng-app="doge-app">
+        <div class="container" ng-app="dogeApp">
             <h1>Angular Doge Directive</h1>
 
             <hr>
@@ -20,14 +20,23 @@
 
             <p>Doges are scalable with the <code>scale</code> attribute.<p>
 
-            <h3>Half Size</h3>
+            <h3>0.5 Scale</h3>
 
             <div>
                 <doge scale="0.5"></doge>
             </div>
 
+            <h3>1.0 Scale</h3>
+
+                <button class="btn btn-primary" data-toggle="modal" data-target="#dogeModal">
+                    View full-scale doge
+                </button>
+
+
+
+
             <h2>Code Example</h2>
-            <pre><code>&lt;div ng-app="doge-directive"&gt;
+            <pre><code>&lt;div ng-app="doge-directive" scale="0.5"&gt;
     &lt;doge&gt;&lt;/doge&gt;       
 &lt;/div&gt;</code></pre>
 
@@ -35,12 +44,31 @@
             <p>Install via <code>bower</code>:</p>
             <pre><code>bower install angular-doge-directive</code></pre>
 
+            <div class="modal fade" id="dogeModal" tabindex="-1" role="dialog" aria-labelledby="dogeModal" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Full-sized doge</h4>
+                  </div>
+                  <div class="modal-body">
+                    <doge></doge>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
+
 
     <a href="https://github.com/jodytate/angular-doge-directive"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
 
 
         <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script src="doge.js"></script>
     </body>
 </html>
