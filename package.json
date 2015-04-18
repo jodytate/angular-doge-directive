@@ -1,0 +1,24 @@
+{
+  "name": "angular-doge-directive",
+  "version": "1.0.0",
+  "description": "An AngularJS directive for doges",
+  "main": "doge.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jodytate/angular-doge-directive.git"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "doge"
+  ],
+  "author": "Jody Tate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jodytate/angular-doge-directive/issues"
+  },
+  "homepage": "http://jodytate.js.org/angular-doge-directive/"
+}
