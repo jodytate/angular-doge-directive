@@ -7,6 +7,12 @@ Install via `bower`:
 ```bash
 bower install angular-doge-directive
 ```
+## npm
+Install via `npm`:
+
+```bash
+npm install angular-doge-directive
+```
 
 ## Example
 See the [homepage](http://jodytate.github.com/angular-doge-directive/) for an example.
