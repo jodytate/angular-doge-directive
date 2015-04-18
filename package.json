@@ -16,7 +16,7 @@
     "doge"
   ],
   "author": "Jody Tate",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jodytate/angular-doge-directive/issues"
   },
