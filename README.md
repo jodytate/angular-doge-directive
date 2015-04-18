@@ -2,7 +2,7 @@
 [Homepage](http://jodytate.github.com/angular-doge-directive/)
 
 ## Bower
-Installable via `bower`:
+Install via `bower`:
 
 ```bash
 bower install angular-doge-directive
